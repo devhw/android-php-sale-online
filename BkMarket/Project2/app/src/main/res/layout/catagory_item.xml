@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+    <ImageView
+        android:id="@+id/img_category"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/other_title_new"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:background="#50ffffff"
+        android:id="@+id/lbl_category"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="aaaaaaaaaaaaaaaaaaaaaaaa"
+        android:padding="10dp"/>
+</FrameLayout>

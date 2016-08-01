@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lbl_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Note"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/layout_error"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:visibility="gone">
+        <Button
+            android:id="@+id/btn_sync_error"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_rotate"
+            />
+        <TextView
+            android:id="@+id/lbl_error"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="@string/Note_Error"
+            android:textColor="@android:color/holo_red_light"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="@string/Note_Retry"
+            android:textColor="@android:color/holo_red_light"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_view_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent">
+    </ListView>
+</LinearLayout>

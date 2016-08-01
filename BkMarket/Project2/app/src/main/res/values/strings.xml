@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">BkMarket</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="hint_search">Tìm trong Book BK</string>
+    <string name="hint_user">User name</string>
+    <string name="hint_password">Password</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <!-- CATEGORY-->
+    <string name="all_category">TẤT CẢ DANH MỤC</string>
+    <string name="book_category">SÁCH</string>
+    <string name="example_category">ĐỀ THI</string>
+    <string name="other_category">CÁC LOẠI KHÁC</string>
+
+    <!-- Profile-->
+    <string name="name_start">Đăng Nhập/Đăng ký</string>
+    <string name="phone_start">Đăng Nhập/Đăng ký</string>
+    <string name="home_start">Đăng Nhập/Đăng ký</string>
+    <string name="mail_start">Đăng Nhập/Đăng ký</string>
+    <string name="blog_management">Quản lý tin rao</string>
+    <!-- LoginActivity-->
+    <string name="Notice_register">Đăng ký thất bại! hãy thử lại</string>
+    <string name="Notice_login">Đăng nhập thất bại! hãy thử lại</string>
+    <string name="Notice">Có lỗi xảy ra! hãy thử lại</string>
+    <string name="Login">Đăng nhập</string>
+    <string name="Sign_in">Đăng ký</string>
+    <string name="Logout">Đăng xuất</string>
+    <string name="User_title">User name:</string>
+    <string name="Pass">Password:</string>
+    <string name="Name_title">Tên:</string>
+    <string name="Address_title">Địa chỉ:</string>
+    <string name="phone_title">Số điện thoại:</string>
+    <string name="Remeber_pass">Lưu mật khẩu?</string>
+    <!-- Add items-->
+    <string name="Take_photo_note">Chụp hình để dễ bán hơn</string>
+    <string name="Hint_title">Tiêu đề sản phẩm</string>
+    <string name="Hint_price">Giá</string>
+    <string name="Hint_content">Mô tả</string>
+    <string name="Category_text">Danh mục</string>
+    <string name="button_text">Đăng bán</string>
+    <!-- Personal item-->
+    <string name="Note">"Bạn chưa có bài đăng nào"</string>
+    <string name="Note_Error">"Lỗi kết nối tới hệ thống"</string>
+    <string name="Note_Retry">"Chạm vào màn hình để thử lại!"</string>
+    <string name="Note_NoInternet">Kiểm tra kết nối mạng</string>
+    <string name="Note_CheckInternet">Kiểm tra kết nối internet của bạn</string>
+    <!-- Details-->
+    <string name="type">Loại</string>
+    <string name="catagory">Danh mục</string>
+    <string name="address">Địa chỉ</string>
+    <!--HideItem-->
+    <string name="hiden_reason_lable">Lý do bạn muốn ẩn bài đăng</string>
+    <string name="hiden_reason_1">Đã bán được sản phẩm</string>
+    <string name="hiden_reason_2">Không muốn bán nữa</string>
+    <string name="hiden_reason_3">Lý do khác</string>
+    <string name="hiden_text">ẩn tin</string>
+    <!--context_menu-->
+    <string name="context_hide_item">Ẩn bài đăng</string>
+    <string name="lable_hide">Đã ẩn</string>
+    <!--photo-->
+    <string name="title_take_photo">Chụp hình sản phẩm</string>
+    <string name="title_choose_photo">Chọn ảnh từ thư viện</string>
+</resources>

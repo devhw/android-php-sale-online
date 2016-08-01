@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimary">#ffcc33</color>
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimaryDark">#ffcc00</color>
+    <!--
+    <color name="colorAccent">#FF4081</color>
+    -->
+    <color name="colorDarkTin">#000</color>
+    <color name="colorAccent">#aaa</color>
+    <color name="colorView">#aaa</color>
+    <color name="colorButtonRegis">#00ff00</color>
+    <color name="colorButtonLogin">#ff6600</color>
+    <color name="color_text">#fff</color>
+    <color name="color_text_notice">#ff0000</color>
+    <color name="color_hide_item">#50aaaaaa</color>
+    <color name="color_hide_wait">#80aaaaaa</color>
+</resources>
